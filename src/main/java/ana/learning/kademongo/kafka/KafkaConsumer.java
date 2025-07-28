@@ -14,5 +14,4 @@ public class KafkaConsumer {
         log.info(String.format("\n+*** Message received -> %s", message));
         // Soon, I will save it to a database or perform some action based on the message content
     }
-
 }

@@ -22,11 +22,11 @@ public class JsonKafkaProducer {
 
     public void sendMessage(Greeting greeting){
 
-        log.info(String.format("Message sent -> %s", greeting.toString()));
+        log.info(String.format("\n+***Message sent -> %s", greeting.toString()));
 
         Message<Greeting> message = MessageBuilder
                 .withPayload(greeting)
-                .setHeader(KafkaHeaders.TOPIC, "greeting")
+                .setHeader(KafkaHeaders.TOPIC, "greetingJson")
                 .build();
 
         kafkaTemplate.send(message);
