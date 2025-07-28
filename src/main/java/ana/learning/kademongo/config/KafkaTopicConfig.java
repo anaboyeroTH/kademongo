@@ -26,4 +26,10 @@ public class KafkaTopicConfig {
                 .build();
     }
 
+    @Bean
+    public NewTopic newsJsonTopic() {
+        return TopicBuilder.name("newsJson")
+                .build();
+    }
+
 }
