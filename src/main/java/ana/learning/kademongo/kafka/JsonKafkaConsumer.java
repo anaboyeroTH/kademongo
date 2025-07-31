@@ -1,6 +1,6 @@
 package ana.learning.kademongo.kafka;
 
-import ana.learning.kademongo.domain.greeting.model.Greeting;
+import ana.learning.kademongo.domain.model.Greeting;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.annotation.KafkaListener;

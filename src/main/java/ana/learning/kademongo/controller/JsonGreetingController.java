@@ -1,6 +1,6 @@
 package ana.learning.kademongo.controller;
 
-import ana.learning.kademongo.domain.greeting.model.Greeting;
+import ana.learning.kademongo.domain.model.Greeting;
 import ana.learning.kademongo.kafka.JsonKafkaProducer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

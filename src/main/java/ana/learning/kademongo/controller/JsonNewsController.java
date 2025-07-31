@@ -1,9 +1,7 @@
 package ana.learning.kademongo.controller;
 
-import ana.learning.kademongo.domain.greeting.model.News;
+import ana.learning.kademongo.domain.model.News;
 import ana.learning.kademongo.kafka.JsonNewsKafkaProducer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
